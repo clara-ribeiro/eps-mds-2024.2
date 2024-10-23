@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
+
+body {
+  background-color: #F9ECE6;
+  margin: 0;
+}
+
+.titulo {
+  font-family: Italiana;
+  font-size: 80px;
+  text-align: center;
+  color: #6e5549
+}
+
+p {
+  margin: 0;
+}
+
+.alunos {
+  padding: 80px;
+  text-align: center;
+}
+
+.botao {
+  font-family: InclusiveSans;
+  background-color: #DAD1D1;
+  color: #6e5549;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  min-width: 150px;
+  text-align: center;
+  transition: opacity 0.3s ease;
+  margin: 0 0 10px 10px;
+
+  span {
+    color: #966954;
+  }
+}
+
+.botao:hover {
+  opacity: 0.7;
+}
