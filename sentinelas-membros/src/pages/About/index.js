@@ -1,6 +1,6 @@
 import React from 'react';
 
-function About() {
+function ClaraRibeiro() {
   return (
     <div>
       <h1>About Page</h1>
@@ -9,4 +9,4 @@ function About() {
   );
 }
 
-export default About;
+export default ClaraRibeiro;
