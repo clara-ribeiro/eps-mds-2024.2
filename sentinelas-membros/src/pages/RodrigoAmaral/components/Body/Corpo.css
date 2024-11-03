@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Linefont:wdth,wght@25..200,4..1000&family=Noto+Sans+Symbols+2&family=Noto+Sans+Symbols:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yarndings+20&display=swap");
+
+.texto {
+  color: #ff7800;
+  background-color: #535353;
+}
+.textoAlt {
+  color: #0087ff;
+  background-color: #535353;
+}
+.textoDividido {
+  color: #ff7800;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.foto {
+  width: 200px;
+}
+.fotoAlt {
+  width: 200px;
+  filter: invert(1);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  background-color: black;
+  margin-top: 4rem;
+}
+.containerAlt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  background-color: black;
+  margin-top: 4rem;
+  font-family: "Yarndings 20", system-ui;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
