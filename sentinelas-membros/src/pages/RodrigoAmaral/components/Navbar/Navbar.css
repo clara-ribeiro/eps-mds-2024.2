@@ -1,29 +1,33 @@
-header {
+.nav_bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem;
-  background-color: #d96b2b;
+  background-color: #ffffff;
   border-bottom: 1px solid #d5d5d5;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 1;
-  color: white;
 }
 
-a {
+.nav_bar a {
   text-decoration: none;
   white-space: nowrap;
+  color: #000000;
+  font-size: 1rem;
+}
+.nav_bar a:hover {
+  color: #ff7800;
 }
 
-header h1 {
+.nav_bar h1 {
   flex: 0.5;
   padding-left: 10px;
 }
 
-header ul {
+.nav_bar ul {
   list-style: none;
   display: flex;
   justify-content: right;
@@ -32,7 +36,7 @@ header ul {
   flex: 0.5;
 }
 
-header .icone_hamburguer {
+.nav_bar .icone_hamburguer {
   display: none;
   margin: 0 1em;
   font-size: 25px;
@@ -64,11 +68,11 @@ header .icone_hamburguer {
 }
 
 @media (max-width: 735px) {
-  header .shortcuts {
+  .nav_bar .shortcuts {
     display: none;
   }
 
-  header .icone_hamburguer {
+  .nav_bar .icone_hamburguer {
     display: inline;
   }
 }

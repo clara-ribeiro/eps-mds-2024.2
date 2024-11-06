@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <header>
+    <header className="nav_bar">
       <a href="#">
         <h1>Rodrigo Amaral</h1>
       </a>
