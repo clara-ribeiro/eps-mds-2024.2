@@ -24,18 +24,18 @@ const Navbar = () => {
       </a>
       <ul className="shortcuts">
         <li >
-          <a href=" " onClick={handleGoback}>
-            Home
+          <a href=" " onClick={handleGoback} className="cor">
+            Voltar
           </a>
         </li>
         <li>
           <a href="#about">Sobre Mim</a>
         </li>
         <li>
-          <a href="#projects">Projetos</a>
+          <a href="#infos">Informações</a>
         </li>
         <li>
-          <a href="#contact">Contatos</a>
+          <a href="#contact">Socials</a>
         </li>
       </ul>
       <FcMenu onClick={toggleMenuActive} className="icone_hamburguer" />

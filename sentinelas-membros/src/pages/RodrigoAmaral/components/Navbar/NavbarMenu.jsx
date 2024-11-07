@@ -7,18 +7,18 @@ const NavbarMenu = () => {
     <div className="menu_hamburguer">
       <ul>
         <li>
-          <Link to={"/"} className="link">
-            Home
+          <Link to={"/"} className="cor">
+            Voltar
           </Link>
         </li>
         <li>
           <a href="#about">Sobre Mim</a>
         </li>
         <li>
-          <a href="#projects">Projetos</a>
+          <a href="#projects">Informações</a>
         </li>
         <li>
-          <a href="#contact">Contatos</a>
+          <a href="#contact">Socials</a>
         </li>
       </ul>
     </div>
