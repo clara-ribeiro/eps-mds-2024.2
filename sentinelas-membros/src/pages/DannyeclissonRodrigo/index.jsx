@@ -1,11 +1,13 @@
 import React from 'react';
 import './index.css';
 import profilepicture from './profilepicture.jpeg';
+import backgroundImage from './code_g1019737194.jpg';
 
 function App() {
     return (
         <div className="App">
             <header className="header">
+
                 <img src={profilepicture} alt="profilepicture" className="profile-picture" />
                 <h1>Dannyeclisson Rodrigo</h1>
                 <p>Engenharia de Software | Universidade de Brasília</p>
