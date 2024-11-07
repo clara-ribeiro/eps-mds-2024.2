@@ -1,0 +1,28 @@
+.footer {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  gap: 1rem;
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 2rem;
+}
+.social .links {
+  color: #dcbdac;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+.social .links:hover {
+  color: #ff7800;
+}
+.voltar{
+    position: absolute;
+    left: 85%;
+}
