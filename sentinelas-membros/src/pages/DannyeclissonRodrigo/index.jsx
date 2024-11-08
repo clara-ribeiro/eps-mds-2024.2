@@ -7,15 +7,17 @@ function App() {
     return (
         <div className="App">
             <header className="header">
-
-                <img src={profilepicture} alt="profilepicture" className="profile-picture" />
-                <h1>Dannyeclisson Rodrigo</h1>
+                <img src={profilepicture} alt="Foto de perfil" className="profile-photo"/>
+                <div>
+                    <h1>Dannyeclisson Rodrigo</h1>
+                </div>
                 <p>Engenharia de Software | Universidade de Brasília</p>
             </header>
 
             <section>
                 <h2>Sobre Mim</h2>
-                <p>Sou estagiário no SERPRO e estou aprimorando minhas habilidades em React e desenvolvimento de software...</p>
+                <p>Sou estagiário no SERPRO e estou aprimorando minhas habilidades em React e desenvolvimento de
+                    software.</p>
             </section>
 
             <section>
