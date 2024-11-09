@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import profilepicture from './profilepicture.png';
+import profilephoto from './profilepicture.png';
 
 function App() {
     return (
@@ -11,7 +11,7 @@ function App() {
                         <h1 className="name">Dannyeclisson Rodrigo</h1>
                         <p className="subtitle">Engenharia de Software | Universidade de Brasília</p>
                     </div>
-                    <img className="profile-picture" src={profilepicture} alt="Profile" />
+                    <img className="profile-photo" src={profilephoto} alt="Profile" />
                 </div>
             </header>
 
@@ -38,16 +38,16 @@ function App() {
 
             <section className="section education">
                 <h2>Educação</h2>
-                <p>Universidade de Brasília - Engenharia de Software<br />FCTE</p>
+                <p> Cursando Engenharia de Software - Universidade de Brasília | FCTE</p>
             </section>
 
             <section className="section skills">
                 <h2>Habilidades</h2>
-                <p>React<br />PHP<br />Ruby</p>
+                <p>Aprendendo React<br />PHP<br />Ruby</p>
             </section>
 
             <footer>
-                <p>Contato: dannyeclissonrodrigo@gmail.com | LinkedIn: /dannyeclisson-rodrigo</p>
+                <p>Contato: dannyeclissonrodrigo@gmail.com | LinkedIn: Dannyeclisson Rodrigo</p>
             </footer>
         </div>
     );
