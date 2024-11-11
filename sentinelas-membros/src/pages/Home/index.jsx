@@ -3,7 +3,7 @@ import './index.css';
 
 const alunos = [
   { nome: "Clara Ribeiro", href: "/clara", turma: "EPS" },
-  { nome: "Danny Rodrigo", href: "/danny", turma: "MDS" },
+  { nome: "Danny Rodrigo", href: "/dannyeclisson", turma: "MDS" },
   { nome: "Eduardo Levenhagem", href: "/eduardo", turma: "MDS" },
   { nome: "Guilherme Moura", href: "/guilherme", turma: "MDS" },
   { nome: "Ígor Veras", href: "/igor", turma: "MDS" },
