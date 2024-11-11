@@ -1,0 +1,22 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #041f36f3;
+    color: white;
+    padding: 10px 20px;  /* Adiciona um pouco de espaçamento horizontal */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;  /* Coloca o ícone à esquerda e o texto à direita */
+    align-items: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-icon {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-icon:hover {
+    color: #3498db;  /* Cor do ícone ao passar o mouse */
+}
