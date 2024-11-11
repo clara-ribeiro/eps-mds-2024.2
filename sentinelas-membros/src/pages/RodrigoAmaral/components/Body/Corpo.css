@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Linefont:wdth,wght@25..200,4..1000&family=Noto+Sans+Symbols+2&family=Noto+Sans+Symbols:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yarndings+20&display=swap");
+
+body{
+  background-color: #f3e8e8;
+  width: 100%;
+}
+
+.texto {
+  padding-left: 3rem;
+  font-size: 1.2rem;
+}
+.textoAlt {
+  font-family: "Yarndings 20", system-ui;
+  color: #ff7800;
+  padding-left: 3rem;
+  font-size: 1.2rem;
+}
+.textoDividido {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.foto {
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.fotoAlt {
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  filter: invert(1);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;  
+}
+.containerAlt {
+  font-family: "Yarndings 20", system-ui;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 1rem;
+  color: #000000;
+  padding: 50px 10%;
+}
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #d88f08;
+}
+.home h1:hover {
+  cursor: pointer;
+}
+
+.sobre {
+  display: flex;
+  width: 100%;
+  padding: 50px 10% 50px 0;
+}
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5rem 0 7rem;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: top;
+}
+.sobre h1 {
+  font-size: 2rem;
+}
+.sobre p {
+  margin-top: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.infos {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+  padding: 2rem 7rem;
+}
+.infos h1 {
+  font-size: 2rem;
+}
+.infos p {
+  color: #808080;
+  margin-top: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+#vl {
+  border-left: 2px solid #968b8b;
+  padding-left: 2rem;
+}
+
+@media (max-width: 600px) {
+  .sobre {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 4rem;
+  }
+  .sobre .right {
+    padding: 0 2rem 4rem 2rem;
+  }
+  .sobre h1{
+    font-size: 1.5rem;
+  }
+  .sobre p {
+    font-size: 1rem;
+  }
+
+  .infos {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 4rem;
+    width: 100%;
+    padding: 4rem 2rem;
+  }
+  .infos h1 {
+    font-size: 1.5rem;
+  }
+  .infos p {
+    font-size: 1rem;
+  }
+  #vl {
+    border-left: 0;
+    padding-left: 0;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .sobre {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 4rem;
+  }
+  .sobre .right {
+    padding: 0 2rem 4rem 2rem;
+  }
+
+  .infos {
+    gap: 2rem;
+    width: 100%;
+    padding: 4rem 2rem;
+  }
+  .infos h1 {
+    font-size: 1.5rem;
+  }
+  .infos p {
+    font-size: 1rem;
+  }
+  #vl {
+    border-left: 2px solid #968b8b;
+    padding-left: 2rem;
+  }
+}

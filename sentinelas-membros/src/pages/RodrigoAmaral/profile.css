@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+::-webkit-scrollbar {
+  background: none;
+  display: none;
+}
+
+html,
+body,
+#root,
+.App {
+  width: 100%;
+  height: 100vh;
+}
