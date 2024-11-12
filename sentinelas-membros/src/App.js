@@ -5,6 +5,8 @@ import ClaraRibeiro from "./pages/ClaraRibeiro";
 import RodrigoAmaral from "./pages/RodrigoAmaral/profile";
 import AboutMe from "./pages/JorgeHenrique/";
 import DannyeclissonRodrigo from './pages/DannyeclissonRodrigo';
+import JoaoIgor from "./pages/JoaoIgor/src/App";
+
 
 
 function App() {
@@ -14,8 +16,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/clara" element={<ClaraRibeiro />} />
         <Route path="/rodrigo" element={<RodrigoAmaral />} />
+           <Route path="/joao" element={<JoaoIgor />} />
         <Route path="/jorge" element={<AboutMe />} />
-        <Route path="/dannyeclisson" element={<DannyeclissonRodrigo />}/>
+        <Route path="/dannyeclisson" element={<DannyeclissonRodrigo />}/>       
+
       </Routes>
     </Router>
   );
