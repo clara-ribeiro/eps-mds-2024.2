@@ -1,0 +1,84 @@
+
+  body {
+
+    background-color: #FFC0CB; /* cor do corpo do "site" */
+}
+    
+
+  div {
+
+    background-color: #FFC0CB; /* cor das caixas de informações*/
+    display: block;
+    margin-right: auto; /*centralizei a div */
+    margin-left: auto;  /*centralizei a div */
+    width: 700px;
+}
+  .app-container {
+    display: flex;
+    flex-direction: column; /* vesticalmente */
+    align-items: center; /* ao centro */
+    padding: 20px;
+  }
+  
+  .welcome-section {
+    padding: 20px;
+    background-color: #E2AFBF; /* cor */
+    font-weight: bold; /* fonte */
+    text-align: center; /* ao centro */
+    width: 100%;
+    max-width: 800px; /* largura máxima */
+    margin-bottom: 10px; 
+    border-radius: 10px; /* arredondo as bordas */
+  }
+  
+  .info-section {
+    display: flex;
+    flex-direction: column; /* alinho verticalmente */
+    align-items: center; /* ao centro */
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .info-block {
+    padding: 20px;
+    background-color: #E2AFBF; /* defino a cor do bloco */
+    border: 1px solid E2AFBF;
+    border-radius: 10px; 
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer {
+    background-color: #FFC0CB; /* cor do rodapé */
+    text-align: center; /* alinho ao centro */
+    padding: 20px;
+    
+  }
+  
+  .redes-sociais {
+    margin-top: 10px;
+    margin-right: auto; 
+    margin-left: auto;
+    max-width: 700px;
+  }
+  
+  .redes-sociais a {
+    margin: 10px;
+    text-decoration: none; /* sem sublinhado*/
+    color: #5b0923;
+  }
+
+  .navbar {
+    margin: 10px 0 20px; /* tamanho das margens */
+    display: flex;
+    gap: 15px;
+    font-size: 1.2em; /* tamanhoda fonte */
+  }
+  
+  .navbar a {
+    text-decoration: none; /* sem sublinhado*/
+    color: #5b0923;
+  }
+  
+  
