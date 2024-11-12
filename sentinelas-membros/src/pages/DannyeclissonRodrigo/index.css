@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    font-family: 'Inter', sans-serif;
+    color: #3b3b3b;
+    background-color: #1e1e1e;
+    text-align: center;
+}
+
+.header {
+    background-color: #bcb8a5;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.text-content {
+    text-align: left;
+}
+
+.name {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    margin-top: 5px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.section h2 {
+    color: #6b6b6b;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 0;
+}
+
+.section p,
+.experience-item p {
+    color: #bcb8a5;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.experience-item h3 {
+    font-size: 18px;
+    color: #3b3b3b;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+footer {
+    padding: 20px;
+    font-size: 14px;
+    color: #6b6b6b;
+}

@@ -1,0 +1,22 @@
+.header {
+    width: 100%;
+    background-color: #041f36f3; /* Cor de fundo do header */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.back-button {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #3a83c7;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.back-button:hover {
+    background-color: #37b499; /* Cor do botão ao passar o mouse */
+}

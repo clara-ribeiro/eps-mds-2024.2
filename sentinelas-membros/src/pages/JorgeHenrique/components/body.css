@@ -1,0 +1,70 @@
+body{
+    padding-bottom: 20px;
+}
+.areaperfil {
+    display: flex;                /* Ativa o layout flexível */
+    flex-direction: row;          /* Organiza os itens em uma linha (padrão) */
+    align-items: flex-start;      /* Alinha os itens no topo da seção */
+    justify-content: flex-start;  /* Garante que os itens comecem do lado esquerdo */
+    width: 100%;
+    background-color: #1d5d66d0;  /* Cor de fundo da faixa */
+    padding: 20px;   
+
+}
+
+.perfil {
+    width: 300px;                 /* Largura da foto */
+    border-radius: 2%;            /* Arredonda as bordas da foto de perfil */
+    border: 4px solid #14526e;    /* Adiciona uma borda */
+    margin-right: 40px;           /* Espaçamento à direita da foto */
+}
+
+.texto {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;       /* Organiza o texto em coluna (um abaixo do outro) */
+    justify-content: flex-start;  /* Alinha o texto ao topo */
+    
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    color: #041f36f3;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.esquerda, .direita {
+    width: 48%; /* Define a largura de cada coluna como 48% */
+}
+
+.conteudo li{
+    margin-left: 20px;
+}
+
+.conteudo h2{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+
+.conteudo p{
+    margin-left: 20px;
+}
+
+.areaperfil h1 {
+    color: #F9ECE6;
+    font-size: 80px;
+    margin-bottom: 20px; /* Diminui a distância entre h1 e h2 */
+}
+
+.areaperfil h2 {
+    color: #F9ECE6;
+    font-size: 40px;
+    line-height: 1;  /* Controla o espaçamento vertical entre o texto da mesma linha */
+    margin-top: 0;   /* Remove o espaçamento superior do h2 */
+}
